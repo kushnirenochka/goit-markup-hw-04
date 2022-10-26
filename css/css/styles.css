@@ -61,7 +61,7 @@ letter-spacing: 0.03em;
     gap: 50px;
     padding: 0px;
 }
-.contact-header a {
+ .contact-header a {
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
@@ -72,7 +72,9 @@ letter-spacing: 0.03em;
 .contact-header a:hover { 
     color: #2196F3;
     --color1: #2196F3;}
+.contact-header a>svg {
     margin-right: 10px;
+    vertical-align: text-top;
 }
 /* CSS DO WEBSTUDIO */
 .main-message {
