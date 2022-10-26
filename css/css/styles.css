@@ -72,6 +72,8 @@ letter-spacing: 0.03em;
 .contact-header a:hover { 
     color: #2196F3;
     --color1: #2196F3;}
+    margin-right: 10px;
+}
 /* CSS DO WEBSTUDIO */
 .main-message {
     background-image: linear-gradient(rgba(47, 48, 58, 0.4),
@@ -79,6 +81,8 @@ letter-spacing: 0.03em;
     url("/images/index/header-bg.png");
     background-repeat: no-repeat;
     background-size: cover;
+    background-size: 1600px;
+    background-position: 50% 50%;
     height: 600px;
     left: 0px;
     top: 80px;
@@ -418,9 +422,9 @@ letter-spacing: 0.03em;
     width: 44px;
     height: 44px;
     background: rgba(255, 255, 255, 0.1);
+    --color5:#FFFFFF;
 }
 .sm-footer >.ellipse:hover,
 .sm-footer >.ellipse:focus {
     background-color: #2196F3;
-    --color5:#FFFFFF;
 }
